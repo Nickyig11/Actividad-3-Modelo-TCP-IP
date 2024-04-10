@@ -58,17 +58,34 @@ Con el comando "netstat" se puede ver:
 ```
 
 ## Actividad 1.9: ¿Podría navegar por internet sin DNS?
+No puedes visitar un sitio web sin acceder a un servidor de nombres de dominio.
 
 ## Actividad 1.10: ¿Cómo puedo saber la MAC de un equipo de mi red con IP 192.168.0.10?
+arp -a" para consultar la tabla ARP.
 
 ## Actividad 1.11: ¿Por qué al configurar manualmente la IP en muchos dispositivos cuando escribimos la IP 222.222.222.222 nos sugiere la máscara 255.255.255.0 y en cambio cuando escribimos la IP 22.22.22.22 nos sugiere la máscara 255.0.0.0?
+La sugerencia de máscara depende de la clase de dirección IP y del rango de direcciones que se desee incluir en la misma red.
 
 ## Actividad 1.12: En una típica red privada con un router que tiene la IP 192.168.0.1 y máscara /24 (255.255.255.0) ¿Cuántos dispositivos entre sobremesas, portátiles, móviles, etc. podemos conectar?
+Con una máscara de /24, se pueden conectar hasta 254 dispositivos.
+
 
 ## Actividad 1.13: ¿Es correcto identificar una red con 10.0.0.1/8?
+No
 
 ## Actividad 1.14: Resume lo máximo posible las siguientes direcciones IPv6 2000:0002:2000:0002:2000:0002:2000:0002 0000:0000:0000:0000:0000:0000:0000:000A
+- 2000:2:2000:2:2000:2:2000:2
+- ::A
 
 ## Actividad 1.15: Detalla con todos los caracteres las siguientes IPv6 2::A000 2222:0:0:2::A0C
+- 0002:0000:0000:0000:0000:0000:0000:A000
+- 2222:0000:0000:0000:0000:0000:0002:A0C
 
 ## Actividad 1.16: Reflexiona sobro cómo afectará el internet de las cosas al direccionamiento (Internet of things, consiste en conectar los objetos cotidianos como electrodomésticos, coches, semáforos, alarmas, etc. a internet para poderlos controlar desde cualquier lugar. Esto supondrá en 2020 que unos 50.000 millones de dispositivos se conectarán a Internet).
+El Internet de las cosas requerirá un direccionamiento más escalable y eficiente, lo que lo hace apto para IPv6. Este protocolo ofrece un espacio de direcciones suficientemente grande para asignar una dirección única a cada dispositivo IoT, facilitando su gestión y conectividad.
+
+
+
+
+
+
